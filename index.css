@@ -30,12 +30,17 @@
   cursor: pointer;
 }
 
-#navbar>h5{
+.navbarhref>h5{
   
   margin: 22px 60px 0px 0px;
   cursor: pointer;
   font-size: 15px;
  
+ 
+}
+.navbarhref{
+  text-decoration: none;
+  color: yellow;
 }
 h5:hover{
   color: white;
@@ -58,6 +63,24 @@ h3:hover{
   box-shadow: rgb(212, 224, 44) 0px 5px 15px;
 
 }
+#profile1{
+  width: 320px;
+  height: 320px;
+  /* background-color: white; */
+  margin: 120px 0px 0px 130px;
+  border-radius: 80px;
+  box-shadow: rgb(212, 224, 44) 0px 5px 15px;
+
+}
+#profile1>img{
+  width: 100%;
+  height: 100%;
+  /* margin-bottom: -20px; */
+  border-radius: 80px;
+  
+  
+}
+
 #profile>img{
   width: 100%;
   height: 100%;
@@ -71,7 +94,14 @@ h3:hover{
   width: 500px;
   margin-left: 620px;
   margin-top: -300px;
+  text-align: center;
 
+}
+#text1{
+  width: 500px;
+  margin-left: 620px;
+  margin-top: -360px;
+  text-align: center;
 
 }
 
@@ -81,12 +111,27 @@ h3:hover{
   margin-bottom: 50px;
   box-shadow: rgb(212, 224, 44) 0px 5px 15px;
 }
+#text1>h1{
+  font-size: 40px;
+  color: yellow;
+  box-shadow: rgb(212, 224, 44) 0px 5px 15px;
+  margin-bottom: 80px;
+}
 
 #text>p{
-  color: white;
+  color:white;
   font-size: 20px;
   margin-bottom: 10px;
 }
+#text1>h5{
+  color:white;
+  font-size: 25px;
+  font-weight: 100;
+  margin-bottom: 50px;
+  
+ 
+}
+
 #text>h2{
   color: yellow;
   font-size: 40px;
@@ -101,11 +146,14 @@ h3:hover{
   width: 150px;
   height: 45px;
   border-radius: 100px;
-  margin-left: 625px;
+  margin-left: 780px;
   margin-top: 40px;
   box-shadow: rgb(212, 224, 44) 0px 5px 15px;
 
   font-size: 20px;
+}
+#resume:hover{
+  cursor: pointer;
 }
 
 #git{
@@ -121,6 +169,9 @@ h3:hover{
 #git>img{
   width: 100%;
   
+}
+#git>img:hover{
+  cursor: pointer;
 }
 
 
@@ -139,6 +190,9 @@ h3:hover{
   border-radius: 50px;
   
 }
+#lin>img:hover{
+  cursor: pointer;
+}
 
 
 #nit{
@@ -155,5 +209,246 @@ h3:hover{
   width: 100%;
   
 }
+#nit>img:hover{
+  cursor: pointer;
+}
 
 
+#pro1{
+  
+    width: 500px;
+    margin-left: 450px;
+    margin-top: -540px;
+    text-align: center;
+}
+
+#prohead{
+  color: yellow;
+  box-shadow: rgb(212, 224, 44) 0px 5px 15px;
+}
+
+#bigb{
+
+  width: 30%;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 140px;
+  box-shadow: rgb(212, 224, 44) 0px 5px 15px;
+}
+#bigb>img{
+  width: 100%;
+  
+  
+
+}
+#toggle{
+
+  width: 30%;
+  height: 250px;
+  margin-left: 60%;
+  margin-top: -19%;
+  box-shadow: rgb(212, 224, 44) 0px 5px 15px;
+
+}
+#toggle>img{
+  width: 100%;
+
+}
+
+#gitprobig{
+  width: 35px;
+  height: auto;
+  border-radius: 100%;
+  background-color: white;
+  margin-left: 200px;
+  margin-top: -36px;
+  /* box-shadow: rgb(212, 224, 44) 0px 5px 15px; */
+}
+#gitprobig>img{
+  width: 100%;
+}
+
+#nitprobig{
+  width: 37px;
+  height: auto;
+  border-radius: 100%;
+  margin-left: 450px;
+  margin-top: -33px;
+  /* box-shadow: rgb(212, 224, 44) 0px 5px 15px; */
+}
+#nitprobig>img{
+  width: 100%;
+}
+
+#gitprotoggle{
+  width: 35px;
+  height: auto;
+  border-radius: 100%;
+  background-color: white;
+  margin-left: 900px;
+  margin-top: -38px;
+  /* box-shadow: rgb(212, 224, 44) 0px 5px 15px; */
+}
+#gitprotoggle>img{
+  width: 100%;
+}
+#gitprotoggle>img:hover{
+  cursor: pointer;
+  
+}
+
+#nitprotoggle{
+  width: 37px;
+  height: auto;
+  border-radius: 100%;
+  margin-left: 1130px;
+  margin-top: -48px;
+  /* box-shadow: rgb(212, 224, 44) 0px 5px 15px; */
+}
+#nitprotoggle>img{
+  width: 100%;
+}
+
+#nitprotoggle>img:hover{
+  cursor: pointer;
+
+}
+
+#bigtext{
+  width: 40%;
+  color: yellow;
+  margin-left: 70px;
+  margin-top: 44px;
+  font-size: 20;
+  text-align: center;
+}
+#toggletext{
+  width: 40%;
+  color: yellow;
+  margin-left: 750px;
+  margin-top: -143px;
+  font-size: 20;
+  text-align: center;
+}
+
+
+#contact{
+  color: yellow;
+  margin-left: 700px;
+  margin-top: -250px;
+  text-align: left;
+}
+#contact>p{
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 25px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media (max-width: 380px) {
+
+  
+
+  .navbarhref{
+    margin: auto;
+    float: none;
+  }
+
+ 
+  .navbarhref>h5{
+  
+    margin: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-right: 30px;
+    float: none;
+  }
+  
+#profile{
+  width: 150px;
+  height: 150px;
+  margin:auto;
+  margin-top: 80px;
+  float: none;
+}
+
+
+#text{
+  width: 280px;
+  margin-left: 40px;
+  margin-top: 50px;
+  float: none;
+}
+
+#text>h1{
+  font-size: 22px;
+  margin-top: -260px;
+  margin-bottom: 220px;
+  float: none;
+}
+
+#text>p{
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+  float: none;
+}
+#text>h2{
+  color: yellow;
+  font-size: 30px;
+  text-align: center;
+  float: none;
+}
+#resume{
+  width: 100px;
+  height: 35px;
+  margin-left: 137px;
+  margin-top:15px;
+  float: none;
+}
+
+#git{
+  width: 40px;
+  height:40px;
+  margin-top: 30px;
+  margin-left: 20%;
+  float: none;
+}
+#lin{
+  width: 40px;
+  height: 40px;
+  margin-top: -40px;
+  margin-left: 45%;
+  float: none;
+}
+#nit{
+  width: 40px;
+  height: 40px;
+  
+  margin-top: -40px;
+  margin-left: 70%;
+  float: none;
+}
+
+#nit>img{
+  width: 100%;
+  float: none;
+}
+
+}
+ */
